@@ -1,0 +1,75 @@
+/* assets/css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fdf6e3; /* 淡いクリーム色 */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d32f2f; /* ベトナムを象徴する赤 */
+    color: #fdd835; /* ベトナムを象徴する黄色 */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    background-color: #fdd835; /* 黄色 */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d32f2f; /* 赤 */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #333; /* リンクホバー時の色 */
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #d32f2f; /* 赤 */
+}
+
+main p, main ul {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #d32f2f; /* 赤 */
+    color: #fdd835; /* 黄色 */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
